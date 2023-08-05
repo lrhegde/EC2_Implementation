@@ -41,7 +41,7 @@ def make_prediction(*,input_data:Union[pd.DataFrame, dict]) -> dict:
 
 if __name__ == "__main__":
 
-    data_in={'PassengerId':[79],'Pclass':[2],'Name':["Caldwell, Master. Alden Gates"],'Sex':['male'],'Age':[0.83],
-                'SibSp':[2],'Parch':[2],'Ticket':[48738],'Cabin':['ramen'],'Embarked':['S'],'Fare':[29]}
+    data_in={'PassengerId':[60],'Pclass':[2],'Name':["Caldwell, Master. Alden Gates"],'Sex':['male'],'Age':[0.83],
+                'SibSp':[2],'Parch':[2],'Ticket':[48738],'Cabin':['ramen'],'Embarked':['S'],'Fare':[45]}
     
     print(make_prediction(input_data=data_in))
